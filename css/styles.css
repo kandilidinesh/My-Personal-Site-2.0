@@ -16,5 +16,5 @@ body,h1{
   width: 200px;
 }
 .pro{
-  text-decoration: underline;
+  text-decoration:line-through;
 }
