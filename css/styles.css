@@ -1,37 +1,51 @@
-
-body{
+body {
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-h1{
+h1 {
   margin-top: 0;
+  font-family: 'Sacramento', cursive;
 }
-.top-container{
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
   background-color: #abedd8;
   position: relative;
-  padding-top: 150px;
+  padding-top: 100px;
 }
-.middle-container{
+
+.middle-container {
   background-color: red;
   height: 200px;
   width: 200px;
-
 }
-.bottom-container{
+
+.bottom-container {
   background-color: blue;
   height: 200px;
   width: 200px;
 }
-.pro{
-  text-decoration:underline;
+
+.pro {
+  text-decoration: underline;
 }
-.top-cloud{
+
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
