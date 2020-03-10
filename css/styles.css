@@ -28,6 +28,16 @@ a{
   color: #11999E;
 }
 
+hr{
+  background-color: none;
+  border-style: none;
+  border-top-style: dotted;
+  width: 3%;
+  border-color: rgb(172, 173, 173);
+  border-width: 5px;
+  margin: 80px auto 80px auto;
+}
+
 .top-container {
   background-color: #abedd8;
   position: relative;
@@ -35,11 +45,33 @@ a{
 }
 
 .middle-container{
+  color: #40514E;
+}
 
+.middle-container-text{
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+  font-weight: normal;
 }
 
 .bottom-container{
+  background-color: #66BFBF;
+  padding: 40px;
+}
 
+.footer-link{
+  text-decoration: none;
+  margin:30px;
+  font-size: 13px;
+  color: #11999E;
+}
+
+.copyright{
+  margin:40px auto 0 auto;
+  margin-bottom: 0;
+  color: #EAF6F6;
+  font-size: 11px;
 }
 
 .pro {
@@ -75,4 +107,33 @@ a{
   margin-left: 35px;
   float: right;
   width:40%;
+}
+
+.profile-img{
+  width:16%;
+}
+
+.myButton {
+  margin:40px auto 60px auto;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
