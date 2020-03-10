@@ -33,6 +33,15 @@ a{
   position: relative;
   padding-top: 100px;
 }
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
 .pro {
   text-decoration: underline;
 }
@@ -47,4 +56,23 @@ a{
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.wbd-img{
+  float: left;
+  width: 35%;
+  margin-right: 35px;
+}
+
+.aiad-img{
+  margin-left: 35px;
+  float: right;
+  width:40%;
 }
