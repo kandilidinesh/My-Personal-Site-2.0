@@ -28,6 +28,9 @@ a{
   color: #11999E;
 }
 
+a:hover{
+  color: #EAF6F6;
+}
 hr{
   background-color: none;
   border-style: none;
